@@ -4,7 +4,6 @@ using System;
 using System.Text;
 using System.Diagnostics;
 
-/// Get all Avg thread IDs and find the toolbar window
 namespace Child
 {
     class Program
@@ -28,9 +27,6 @@ namespace Child
             System.Console.WriteLine("*                                                                             *");
             System.Console.WriteLine("* sClass      Classname                                                       *");
             System.Console.WriteLine("* sTitle      Window Title                                                    *");
-            System.Console.WriteLine("*                                                                             *");
-            System.Console.WriteLine("* Example:                                                                    *");
-            System.Console.WriteLine("* Child " + cQuote + "#32770" + cQuote + " " + cQuote + "AVG AntiVirus Free Edition 2015" + cQuote + "                            *");
             System.Console.WriteLine("*                                                                             *");
             System.Console.WriteLine("* Copyright (c) 2014  Geert-Jan Uijtdewilligen                                *");
             System.Console.WriteLine("* This is free open source software that comes with no warranty, and you are  *");
