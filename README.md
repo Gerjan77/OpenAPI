@@ -1,63 +1,64 @@
 # OpenAPI
-Name:
-OpenAPI v0.0.1
-Purpose:
-A collection of ms-windows console applications.
-Compiler:
-Visual Studio 2013
 
-Button
+## Synopsis
+
+OpenAPI v0.0.1 is a collection of ms-windows console applications.
+Compiled with Visual Studio 2013
+
+## Code Example
+
+### Button
 Lists child windows
 
-Child
+### Child
 Lists child windows of desktop windows
 
-Click
+### Click
 Simulate a left mouse click
 
-Doubleclick
+### Doubleclick
 Simulate a mouse double click
 
-Fillrect
+### Fillrect
 Draw a black filled rectangle over the full desktop
 
-Hide
+### Hide
 Runs a hidden console at a regular interval
 
-Nav
+### Nav
 Open a console to navigate the windows API
 Commands are
-exit
+#### exit
 Return to the ms windows console
-child
+#### child
 List all current windows children
-childpos
+#### childpos
 List all current windows children and their position
-down iHndl
+#### down iHndl
 Change the current window to the iHndl window handle
-up
+#### up
 Change the current window to the parent window
 
-ReadKeys
+### ReadKeys
 Captures keystrokes to the console and appends them to textfile
 
-RestartProgram
+### RestartProgram
 Close a windows program and reopen it at a regular interval
 
-Rightclick
+### Rightclick
 Simulate a right mouse click
 
-Sendkey
+### Sendkey
 Simulate a virtual keystroke
 
-Show
+### Show
 Set show option of a window
 
-Terminate
+### Terminate
 Terminate a ms-windows process
 
-Timer
+### Timer
 Runs a hidden command after a timer has expired
 
-Wait
+### Wait
 Return after a timer has expired
